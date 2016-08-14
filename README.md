@@ -30,7 +30,7 @@ python vis_invert.py [content-image] [style-image] [layer-name] [mod_type]
 
 **Feature Map Inversion:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/feature map of the golden gate.png" height="200px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/feature map of the golden gate.png" height="300px">
 
 **Randomly Modified Code Inversion:**
 
@@ -46,4 +46,4 @@ python vis_style.py [content-image] [style-image] [layer-name] [mod_type]
 
 **Purposefully Modified Code Inversion:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/style_transfer3.png" height="200px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/style_transfer3.png" height="300px">
