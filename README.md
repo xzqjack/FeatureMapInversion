@@ -11,15 +11,15 @@ This code is written in Python and requires [MXnet](https://github.com/dmlc/mxne
 ## Usage
 **Input content images:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the golden gate bridge.jpg" height="200px">
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the tubingen.jpg" height="200px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the golden gate bridge.jpg" width="300px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the tubingen.jpg" width="300px">
 
 **Input style images:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the frida kahlo.jpg" height="190px">
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the seated nude.jpg" height="190px">
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the starry night.png" height="190px">
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the scream.jpg" height="190px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the frida kahlo.jpg" width="150px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the seated nude.jpg" width="150px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the starry night.png" width="150px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/input/the scream.jpg" width="150px">
 
 To visualize modified code, you can run
 ```python
@@ -30,11 +30,11 @@ python vis_invert.py [content-image] [style-image] [layer-name] [mod_type]
 
 **Feature Map Inversion:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/feature map of the golden gate.png" height="400px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/feature map of the golden gate.png" width="600px">
 
 **Randomly Modified Code Inversion:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/random.png" height="400px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/random.png" width="600px">
 
 To do style transfer, you can run
 ```
@@ -46,4 +46,12 @@ python vis_style.py [content-image] [style-image] [layer-name] [mod_type]
 
 **Purposefully Modified Code Inversion:**
 
-<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/style_transfer3.png" height="400px">
+<img src="https://github.com/xzqjack/FeatureMapInversion/blob/master/output/style_transfer3.png" width="600px">
+
+## Reference
+
+This code referred https://github.com/dmlc/mxnet/tree/master/example/neural-style.
+
+## Future work
+
+To add "Activation Maximization" such as deepdream.

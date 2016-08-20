@@ -1,7 +1,22 @@
-import mxnet as mx
+#!/usr/bin/env python
+'''
+This code is to reproduce the result of "Feature Map Inversion" from the paper:
+
+"Every Filter Extract a Specific Texture in Convolutional Neural Networks-short".
+Zhiqiang Xia, Ce Zhu, Zhengtao Wang, Qi Guo, Yipeng Liu.
+https://arxiv.org/abs/1608.04170
+
+This code referred https://github.com/dmlc/mxnet/tree/master/example/neural-style
+
+Feel free to email Zhiqiang Xia <xzqjack@hotmail.com> if you have questions.
+'''
+
+import os
 import logging
 import argparse
-import os
+
+import mxnet as mx
+
 import utils
 import model_vgg19_invert
 
